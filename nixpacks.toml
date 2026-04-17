@@ -1,8 +1,1 @@
-[phases.setup]
-nixPkgs = ["nodejs"]
 
-[phases.install]
-cmds = ["cd Curriculo-Express/server && npm install"]
-
-[start]
-cmd = "cd Curriculo-Express/server && npm start"
